@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starter Scss</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Table</title>
 </head>
 <body>
+    <div class="container">
 
+        <table class="table">
+            <thead>
+              <tr>
+                <th rowspan="2" class="noamber--thed">No</th>
+                <th rowspan="2">Client</th>
+                <th rowspan="2">Tovar</th>
+                <th rowspan="2">Status</th>
+                <th colspan="2">Umumiy xarajatlar</th>
+              </tr>
+
+              <tr>
+                  <th>Xizmat xar.</th>
+                  <th>Yo'l xar.</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="namber--thed">1</td>
+                    <td>Ibrohim Ali</td>
+                    <td>Gilam</td>
+                    <td>Yuvishda</td>
+                    <td>300.000</td>
+                    <td>14.000</td>
+                </tr>
+            </tbody>
+
+            <tbody>
+                <tr>
+                    <td class="namber--thed">2</td>
+                    <td>Shuxratbek</td>
+                    <td>Parda</td>
+                    <td>Qurutish</td>
+                    <td>200.000</td>
+                    <td>10.000</td>
+                </tr>
+            </tbody>
+
+            <tbody>
+                <tr>
+                    <td class="namber--thed">2</td>
+                    <td>Farux</td>
+                    <td>Sholcha</td>
+                    <td>Yetkazihda</td>
+                    <td>240.000</td>
+                    <td>5.000</td>
+                </tr>
+
+                <tr>
+                    <td colspan="4" class="td--bottom">Jami</td>
+                    <td colspan="2" class="td--bottom">1000.000</td>
+                </tr>
+            </tbody>
+            </table>
+
+    </div>
 </body>
 </html>
